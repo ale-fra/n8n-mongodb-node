@@ -9,7 +9,7 @@ import {
 
 import { connectMongoClient, validateAndResolveMongoCredentials } from './GenericFunctions';
 import { nodeProperties } from './MongoDbProperties';
-import { Document, Sort } from 'mongodb';
+import { Document } from 'mongodb';
 import { generatePairedItemData } from '../../utils/utilities';
 
 export class MongoDbOperations implements INodeType {
